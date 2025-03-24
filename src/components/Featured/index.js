@@ -11,7 +11,7 @@ const Featured = () => {
 
             <div className="artist_name">
                 <div className="wrapper">
-                    Nasir Khan Jan
+                    v1
                 </div>
             </div>
 
