@@ -16,5 +16,14 @@ pipeline {
                 echo 'Deploying the application...'
             }
         }
+
+         stage('Checkout') {
+            steps {
+                script {
+                    checkout scm
+                }
+            }
+
+         }
     }
 }
